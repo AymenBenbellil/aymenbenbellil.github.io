@@ -1,0 +1,25 @@
+body{
+	color: #ebdbb2;
+	background: #282828;
+}
+
+H1 {
+	color: #d65d0e;
+	font-size: 40px; 
+	text-align: center;
+	font-family: 'JetBrains Mono';
+}
+
+H3 {
+	text-align: center;
+	font-size: 23px;
+	font-family: 'JetBrains Mono';
+}
+
+I {
+	color: #689d6a;
+}
+
+B {
+	color: #98971a;
+}
