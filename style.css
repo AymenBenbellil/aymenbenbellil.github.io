@@ -24,10 +24,15 @@ I {
 	color: #689d6a;
 }
 
-B {
-	color: #98971a;
+P {
+	font-size: 18px;
 }
 
-P {
-	font-size: 21px;
+LI {
+	font-size: 18px;
+}
+
+IMG {
+	display: block;
+	margin: 0 auto;
 }
