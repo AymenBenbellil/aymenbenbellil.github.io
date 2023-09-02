@@ -31,6 +31,7 @@ LI {
 IMG {
 	display: block;
 	margin: 0 auto;
+	border: 1px solid #504945;
 }
 
 UL {
