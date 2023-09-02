@@ -5,14 +5,9 @@ body{
 }
 
 H1 {
-	color: #d65d0e;
+	color: #d79921;
 	font-size: 35px; 
 	text-align: center;
-}
-
-H2 {
-	color: #d79921;
-	font-size: 23px;
 }
 
 H3 {
@@ -24,16 +19,8 @@ P {
 	font-size: 18px;
 }
 
-LI {
-	font-size: 18px;
-}
-
 IMG {
 	display: block;
 	margin: 0 auto;
 	border: 1px solid #504945;
-}
-
-UL {
-	font-size: 22px;
 }
