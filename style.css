@@ -12,7 +12,7 @@ H1 {
 
 H2 {
 	color: #d79921;
-	font-size: 25px;
+	font-size: 23px;
 }
 
 H3 {
@@ -35,4 +35,8 @@ LI {
 IMG {
 	display: block;
 	margin: 0 auto;
+}
+
+UL {
+	font-size: 22px;
 }
