@@ -1,7 +1,7 @@
 body{
 	color: #ebdbb2;
-	background: #282828;
-	font-family: 'JetBrains Mono';
+	background: #1d2021;
+	font-family: 'Titillium Web';
 }
 
 H1 {
@@ -13,6 +13,7 @@ H1 {
 H2 {
 	color: #d79921;
 	font-size: 23px;
+	text-align: center;
 }
 
 H3 {
@@ -22,6 +23,7 @@ H3 {
 
 P {
 	font-size: 18px;
+	text-align: center;
 }
 
 LI {
