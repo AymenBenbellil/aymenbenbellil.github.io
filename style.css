@@ -13,6 +13,10 @@ img{
 	margin: 5px;
 }
 
+.images{
+	text-align: center;
+}
+
 h1{
 	position: relative;
 	font-size: 35px;
@@ -21,6 +25,10 @@ h1{
 .pres{
 	text-align: center;
 	font-size: 40px;
+}
+
+.logo{
+	cursor: pointer;
 }
 
 .bar{
