@@ -9,11 +9,17 @@ body{
 }
 
 img{
-	width: 440px;
+	width: 430px;
+	margin: 5px;
 }
 
 h1{
 	position: relative;
+}
+
+.pres{
+	text-align: center;
+	font-size: 40px;
 }
 
 .bar{
