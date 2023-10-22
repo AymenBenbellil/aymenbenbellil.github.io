@@ -5,4 +5,65 @@ head{
 body{
 	color: #ebdbb2;
 	background: #282828;
+	font-family: 'Amiri';
+}
+
+img{
+	width: 430px;
+}
+
+h1{
+	position: relative;
+}
+
+.bar{
+	text-align: right;
+	width: 95%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.bar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ebdbb2;
+}
+
+.bar ul li::after{
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #458588;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+
+.bar ul li:hover::after{
+	width: 100%;
+}
+
+.bar h1::after{
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #458588;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+
+.bar h1:hover::after{
+	width: 100%;
 }
