@@ -1,0 +1,30 @@
+body{
+	color: #ebdbb2;
+	background: #282828;
+	font-family: 'Titillium Web';
+}
+
+H1 {
+	color: #d79921;
+	font-size: 35px; 
+	text-align: center;
+}
+
+H2 {
+	color: #d79921;
+	font-size: 25px;
+}
+
+P {
+	font-size: 18px;
+}
+
+IMG {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #504945;
+}
+
+LI {
+	font-size: 17px;
+}
