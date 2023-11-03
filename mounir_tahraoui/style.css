@@ -1,0 +1,94 @@
+head{
+	font-family: 'Amiri';
+}
+
+body{
+	color: #ebdbb2;
+	background: #282828;
+	font-family: 'Amiri';
+}
+
+img{
+	width: 430px;
+	margin: 5px;
+}
+
+.images{
+	text-align: center;
+}
+
+h1{
+	position: relative;
+	font-size: 35px;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.form-sa{
+	height: 95%;
+}
+
+.pres{
+	text-align: center;
+	font-size: 40px;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.bar{
+	text-align: right;
+	width: 95%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	font-family: "Titillium Web";
+}
+
+.bar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #ebdbb2;
+}
+
+.bar ul li::after{
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #458588;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+
+.bar ul li:hover::after{
+	width: 100%;
+}
+
+.bar h1::after{
+	content: '';
+	height: 2px;
+	width: 0;
+	background: #458588;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s;
+}
+
+.bar h1:hover::after{
+	width: 100%;
+}
