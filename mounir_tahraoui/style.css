@@ -27,6 +27,10 @@ p{
 	font-size: 20px;
 }
 
+li{
+	list-style: none;
+}
+
 .form-sa{
 	height: 95%;
 }
@@ -54,7 +58,7 @@ p{
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
-	font-family: "Titillium Web";
+	font-family: "Amiri";
 }
 
 .bar ul li a{
@@ -69,7 +73,7 @@ p{
 	width: 0;
 	background: #458588;
 	position: absolute;
-	left: 0;
+	right: 0;
 	bottom: 0;
 	transition: 0.5s;
 }
@@ -91,4 +95,18 @@ p{
 
 .bar h1:hover::after{
 	width: 100%;
+}
+
+.subject ul li{
+	text-align: right;
+}
+
+.adjz {
+  text-align: center;
+}
+
+ul.adj {
+  display: inline-block;
+  text-align: center;
+  font-size: 19px;
 }
