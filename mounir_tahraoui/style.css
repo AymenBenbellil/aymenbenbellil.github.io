@@ -110,3 +110,18 @@ ul.adj {
   text-align: center;
   font-size: 19px;
 }
+
+ul li ul.dropdown li {
+	display: block;
+}
+
+ul li ul.dropdown {
+	width: 100%;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+ul li:hover ul.dropdown {
+	display: block;
+}
