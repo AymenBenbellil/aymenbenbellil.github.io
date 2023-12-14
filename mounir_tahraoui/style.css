@@ -4,17 +4,13 @@ head{
 
 body{
 	color: #ebdbb2;
-	background: #222;
+	background: #282828;
 	font-family: 'Amiri';
 }
 
 img{
 	width: 430px;
 	margin: 5px;
-}
-
-.images{
-	text-align: center;
 }
 
 h1{
@@ -31,8 +27,8 @@ li{
 	list-style: none;
 }
 
-.form-sa{
-	height: 95%;
+.images{
+	text-align: center;
 }
 
 .pres{
@@ -113,6 +109,7 @@ ul.adj {
 
 ul li ul.dropdown li {
 	display: block;
+	padding: 5px;
 }
 
 ul li ul.dropdown {
