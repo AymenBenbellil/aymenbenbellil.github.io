@@ -123,17 +123,3 @@ ul.adj {
 .SoMeLink:hover{
 	color: #c6e1e2;
 }
-
-#image-track {
-  display: flex;
-  gap: 2vmin;
-  user-select: none; /* -- Prevent image highlighting -- */
-}
-
-#image-track > .image {
-  width: 50vmin;
-  height: 56vmin;
-  border-radius: 15px;
-  object-fit: cover;
-  object-position: 100% center;
-}
