@@ -1,3 +1,4 @@
+/* general propreties */
 head{
 	font-family: 'Amiri';
 }
@@ -6,11 +7,9 @@ body{
 	color: #ebdbb2;
 	background: #282828;
 	font-family: 'Amiri';
-}
-
-img{
-	width: 430px;
-	margin: 5px;
+	width: 100vw;
+	height: 100vh;
+	margin: 0rem;
 }
 
 h1{
@@ -25,21 +24,21 @@ p{
 
 li{
 	list-style: none;
+	font-size: 22px;
 }
 
-.images{
-	text-align: center;
-}
-
+/* Formatting big page titles */
 .pres{
 	text-align: center;
 	font-size: 40px;
 }
 
+/* Making a simple logo for the website */
 .logo{
-	cursor: pointer;
+	cursor: default;
 }
 
+/* Formatting the navigation bar to be horizontal */
 .bar{
 	text-align: right;
 	width: 95%;
@@ -49,6 +48,7 @@ li{
 	justify-content: space-between;
 }
 
+/* Aligning the navigation bar items horizonatally */
 .bar ul li{
 	list-style: none;
 	display: inline-block;
@@ -57,68 +57,36 @@ li{
 	font-family: "Amiri";
 }
 
+/* formatting the anchor tags for the navigatiob bar */
 .bar ul li a{
 	text-decoration: none;
 	font-size: 20px;
 	color: #ebdbb2;
 }
 
-.bar ul li::after{
-	content: '';
-	height: 2px;
-	width: 0;
-	background: #458588;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	transition: 0.5s;
+/* Animating the list items when hovering */
+.bar ul li a{
+	transition: color 0.4s;
 }
 
-.bar ul li:hover::after{
-	width: 100%;
+.bar ul li a:hover{
+	color: #458588;
 }
 
-.bar h1::after{
-	content: '';
-	height: 2px;
-	width: 0;
-	background: #458588;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	transition: 0.5s;
-}
-
-.bar h1:hover::after{
-	width: 100%;
-}
-
-.subject ul li{
-	text-align: right;
-}
-
-.adjz {
-  text-align: center;
-}
-
-ul.adj {
-  display: inline-block;
-  text-align: center;
-  font-size: 19px;
-}
-
-ul li ul.dropdown li {
-	display: block;
-	padding: 5px;
-}
-
+/* Animating the dropdown menu for Social Media */
 ul li ul.dropdown {
 	width: 100%;
 	position: absolute;
 	z-index: 999;
-	display: none;
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateX(-1);
+	transition: 0.6s ease-in-out;
 }
 
 ul li:hover ul.dropdown {
-	display: block;
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(1);
 }
