@@ -4,8 +4,8 @@ head{
 }
 
 body{
-	color: #ebdbb2;
-	background: #282828;
+	color: #3c3836;
+	background: #fbf1c7;
 	font-family: 'Amiri';
 	width: 100vw;
 	height: 100vh;
@@ -40,12 +40,36 @@ li{
 
 /* Formatting the navigation bar to be horizontal */
 .bar{
-	text-align: right;
-	width: 95%;
-	margin: auto;
+	width: 90%;
+	margin-top: 20px;
+	margin-right: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	animation: baran 2.5s ease;
+}
+
+@Keyframes baran {
+	from{
+		width: 90%;
+		margin-top: 20px;
+		margin-right: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+  		transform: translate(-50%, 0);
+		opacity: 0;
+	}
+	to{
+		width: 90%;
+		margin-top: 20px;
+		margin-right: 50px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+  		transform: translate(0, 0);
+		opacity: 1;
+	}
 }
 
 /* Aligning the navigation bar items horizonatally */
@@ -61,32 +85,52 @@ li{
 .bar ul li a{
 	text-decoration: none;
 	font-size: 20px;
-	color: #ebdbb2;
+	color: #3c3836;
 }
 
 /* Animating the list items when hovering */
 .bar ul li a{
-	transition: color 0.4s;
+	transition: color 0.5s;
 }
 
 .bar ul li a:hover{
-	color: #458588;
+	color: #928374;
 }
 
-/* Animating the dropdown menu for Social Media */
-ul li ul.dropdown {
-	width: 100%;
+.bio{
 	position: absolute;
-	z-index: 999;
-	display: block;
-	opacity: 0;
-	visibility: hidden;
-	transform: translateX(-1);
-	transition: 0.6s ease-in-out;
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+	transform: translate(-50%, -50%);
+	animation: transitionIn 2.5s ease;
 }
 
-ul li:hover ul.dropdown {
-	opacity: 1;
-	visibility: visible;
-	transform: translateX(1);
+@Keyframes transitionIn {
+	from{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		opacity: 0;
+  		transform: translate(-50%, 0);
+	}
+	to{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		opacity: 1;
+  		transform: translate(-50%, -50%);
+	}
+}
+
+/*  */
+.adjz {
+  text-align: center;
+}
+
+/*  */
+ul.adj {
+	display: inline-block;
+	text-align: right;
+	font-size: 0px;
 }
