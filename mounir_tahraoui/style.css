@@ -190,6 +190,16 @@ ul.adj {
 .footer-img{
 	position: absolute;
 	right: 45%;
+	bottom: 10%;
 	display: flex;
 	gap: 20px
+}
+
+.footer img{
+	width: 56px;
+	transition: 0.5s;
+}
+
+.footer img:hover{
+	width: 70px;
 }
