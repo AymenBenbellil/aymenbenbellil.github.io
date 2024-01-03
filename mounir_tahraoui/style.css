@@ -177,7 +177,19 @@ ul.adj {
 .prizes video{
 	height: 80%;
 	aspect-ratio: 16/9;
-	filter: grayscale(90%);
+	filter: grayscale(70%);
 	position: absolute;
 	animation: hpran 3.5s ease;
+}
+
+.footer{
+	position: sticky;
+	top: 0px;
+}
+
+.footer-img{
+	position: absolute;
+	right: 45%;
+	display: flex;
+	gap: 20px
 }
