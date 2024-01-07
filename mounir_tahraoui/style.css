@@ -176,7 +176,7 @@ ul.adj {
 
 .prizes video{
 	height: 80%;
-	aspect-ratio: 16/9;
+	aspect-ratio: 9 / 16;
 	filter: grayscale(70%);
 	position: absolute;
 	animation: hpran 3.5s ease;
